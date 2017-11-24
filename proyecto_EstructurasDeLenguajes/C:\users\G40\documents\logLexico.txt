@@ -1,0 +1,455 @@
+{1, Token: variables, Tipo: Palabra Reservada, Linea: 0, Columna: 0} 
+
+{2, Token: 
+, Tipo: Salto de Linea, Linea: 0, Columna: 9} 
+
+{3, Token: C, Tipo: Identificador, Linea: 1, Columna: 0} 
+
+{4, Token: :=, Tipo: Asignación, Linea: 1, Columna: 1} 
+
+{5, Token:  , Tipo: Espacio, Linea: 1, Columna: 3} 
+
+{6, Token: "Campesino", Tipo: Texto, Linea: 1, Columna: 4} 
+
+{7, Token: 
+, Tipo: Salto de Linea, Linea: 1, Columna: 15} 
+
+{8, Token: O, Tipo: Identificador, Linea: 2, Columna: 0} 
+
+{9, Token: :=, Tipo: Asignación, Linea: 2, Columna: 1} 
+
+{10, Token:  , Tipo: Espacio, Linea: 2, Columna: 3} 
+
+{11, Token: "Oveja", Tipo: Texto, Linea: 2, Columna: 4} 
+
+{12, Token: 
+, Tipo: Salto de Linea, Linea: 2, Columna: 11} 
+
+{13, Token: H, Tipo: Identificador, Linea: 3, Columna: 0} 
+
+{14, Token: :=, Tipo: Asignación, Linea: 3, Columna: 1} 
+
+{15, Token:  , Tipo: Espacio, Linea: 3, Columna: 3} 
+
+{16, Token: "Heno", Tipo: Texto, Linea: 3, Columna: 4} 
+
+{17, Token: 
+, Tipo: Salto de Linea, Linea: 3, Columna: 10} 
+
+{18, Token: L, Tipo: Identificador, Linea: 4, Columna: 0} 
+
+{19, Token: :=, Tipo: Asignación, Linea: 4, Columna: 1} 
+
+{20, Token:  , Tipo: Espacio, Linea: 4, Columna: 3} 
+
+{21, Token: "Lobo", Tipo: Texto, Linea: 4, Columna: 4} 
+
+{22, Token: 
+, Tipo: Salto de Linea, Linea: 4, Columna: 10} 
+
+{23, Token: 
+, Tipo: Salto de Linea, Linea: 5, Columna: 0} 
+
+{24, Token: orden, Tipo: Palabra Reservada, Linea: 6, Columna: 0} 
+
+{25, Token: :=, Tipo: Asignación, Linea: 6, Columna: 5} 
+
+{26, Token: (, Tipo: Separador, Linea: 6, Columna: 7} 
+
+{27, Token: C, Tipo: Identificador, Linea: 6, Columna: 8} 
+
+{28, Token: ,, Tipo: Separador, Linea: 6, Columna: 9} 
+
+{29, Token: L, Tipo: Identificador, Linea: 6, Columna: 10} 
+
+{30, Token: ,, Tipo: Separador, Linea: 6, Columna: 11} 
+
+{31, Token: O, Tipo: Identificador, Linea: 6, Columna: 12} 
+
+{32, Token: ,, Tipo: Separador, Linea: 6, Columna: 13} 
+
+{33, Token: H, Tipo: Identificador, Linea: 6, Columna: 14} 
+
+{34, Token: ), Tipo: Separador, Linea: 6, Columna: 15} 
+
+{35, Token: 
+, Tipo: Salto de Linea, Linea: 6, Columna: 16} 
+
+{36, Token: 
+, Tipo: Salto de Linea, Linea: 7, Columna: 0} 
+
+{37, Token: estados, Tipo: Palabra Reservada, Linea: 8, Columna: 0} 
+
+{38, Token: 
+, Tipo: Salto de Linea, Linea: 8, Columna: 7} 
+
+{39, Token: 
+, Tipo: Salto de Linea, Linea: 9, Columna: 0} 
+
+{40, Token: dominio, Tipo: Palabra Reservada, Linea: 10, Columna: 0} 
+
+{41, Token: :=, Tipo: Asignación, Linea: 10, Columna: 7} 
+
+{42, Token:  , Tipo: Espacio, Linea: 10, Columna: 9} 
+
+{43, Token: all, Tipo: Palabra Reservada, Linea: 10, Columna: 10} 
+
+{44, Token: [, Tipo: Separador, Linea: 10, Columna: 13} 
+
+{45, Token: I, Tipo: Identificador, Linea: 10, Columna: 14} 
+
+{46, Token: ,, Tipo: Separador, Linea: 10, Columna: 15} 
+
+{47, Token: D, Tipo: Identificador, Linea: 10, Columna: 16} 
+
+{48, Token: ], Tipo: Separador, Linea: 10, Columna: 17} 
+
+{49, Token: 
+, Tipo: Salto de Linea, Linea: 10, Columna: 18} 
+
+{50, Token: 
+, Tipo: Salto de Linea, Linea: 11, Columna: 0} 
+
+{51, Token: inicio, Tipo: Palabra Reservada, Linea: 12, Columna: 0} 
+
+{52, Token: :=, Tipo: Asignación, Linea: 12, Columna: 6} 
+
+{53, Token:  , Tipo: Espacio, Linea: 12, Columna: 8} 
+
+{54, Token: (, Tipo: Separador, Linea: 12, Columna: 9} 
+
+{55, Token: I, Tipo: Identificador, Linea: 12, Columna: 10} 
+
+{56, Token: ,, Tipo: Separador, Linea: 12, Columna: 11} 
+
+{57, Token: I, Tipo: Identificador, Linea: 12, Columna: 12} 
+
+{58, Token: ,, Tipo: Separador, Linea: 12, Columna: 13} 
+
+{59, Token: I, Tipo: Identificador, Linea: 12, Columna: 14} 
+
+{60, Token: ,, Tipo: Separador, Linea: 12, Columna: 15} 
+
+{61, Token: I, Tipo: Identificador, Linea: 12, Columna: 16} 
+
+{62, Token: ), Tipo: Separador, Linea: 12, Columna: 17} 
+
+{63, Token: 
+, Tipo: Salto de Linea, Linea: 12, Columna: 18} 
+
+{64, Token: 
+, Tipo: Salto de Linea, Linea: 13, Columna: 0} 
+
+{65, Token: fin, Tipo: Palabra Reservada, Linea: 14, Columna: 0} 
+
+{66, Token: :=, Tipo: Asignación, Linea: 14, Columna: 3} 
+
+{67, Token:  , Tipo: Espacio, Linea: 14, Columna: 5} 
+
+{68, Token: (, Tipo: Separador, Linea: 14, Columna: 6} 
+
+{69, Token: D, Tipo: Identificador, Linea: 14, Columna: 7} 
+
+{70, Token: ,, Tipo: Separador, Linea: 14, Columna: 8} 
+
+{71, Token: D, Tipo: Identificador, Linea: 14, Columna: 9} 
+
+{72, Token: ,, Tipo: Separador, Linea: 14, Columna: 10} 
+
+{73, Token: D, Tipo: Identificador, Linea: 14, Columna: 11} 
+
+{74, Token: ,, Tipo: Separador, Linea: 14, Columna: 12} 
+
+{75, Token: D, Tipo: Identificador, Linea: 14, Columna: 13} 
+
+{76, Token: ), Tipo: Separador, Linea: 14, Columna: 14} 
+
+{77, Token: 
+, Tipo: Salto de Linea, Linea: 14, Columna: 15} 
+
+{78, Token: 
+, Tipo: Salto de Linea, Linea: 15, Columna: 0} 
+
+{79, Token: acciones, Tipo: Palabra Reservada, Linea: 16, Columna: 0} 
+
+{80, Token: 
+, Tipo: Salto de Linea, Linea: 16, Columna: 8} 
+
+{81, Token: 
+, Tipo: Salto de Linea, Linea: 17, Columna: 0} 
+
+{82, Token: {, Tipo: Separador, Linea: 18, Columna: 0} 
+
+{83, Token: A1, Tipo: Identificador, Linea: 18, Columna: 1} 
+
+{84, Token: ,, Tipo: Separador, Linea: 18, Columna: 3} 
+
+{85, Token: "Pasar Lobo a la Derecha", Tipo: Texto, Linea: 18, Columna: 4} 
+
+{86, Token: ,, Tipo: Separador, Linea: 18, Columna: 29} 
+
+{87, Token:  , Tipo: Espacio, Linea: 18, Columna: 30} 
+
+{88, Token: O, Tipo: Identificador, Linea: 18, Columna: 31} 
+
+{89, Token:  , Tipo: Espacio, Linea: 18, Columna: 32} 
+
+{90, Token: !=, Tipo: Operador de Comparación, Linea: 18, Columna: 33} 
+
+{91, Token:  , Tipo: Espacio, Linea: 18, Columna: 35} 
+
+{92, Token: H, Tipo: Identificador, Linea: 18, Columna: 36} 
+
+{93, Token:  , Tipo: Espacio, Linea: 18, Columna: 37} 
+
+{94, Token: &and, Tipo: Operador Logico, Linea: 18, Columna: 38} 
+
+{95, Token:  , Tipo: Espacio, Linea: 18, Columna: 42} 
+
+{96, Token: L, Tipo: Identificador, Linea: 18, Columna: 43} 
+
+{97, Token: ==, Tipo: Operador de Comparación, Linea: 18, Columna: 44} 
+
+{98, Token: I, Tipo: Identificador, Linea: 18, Columna: 46} 
+
+{99, Token:  , Tipo: Espacio, Linea: 18, Columna: 47} 
+
+{100, Token: &and, Tipo: Operador Logico, Linea: 18, Columna: 48} 
+
+{101, Token:  , Tipo: Espacio, Linea: 18, Columna: 52} 
+
+{102, Token: C, Tipo: Identificador, Linea: 18, Columna: 53} 
+
+{103, Token: ==, Tipo: Operador de Comparación, Linea: 18, Columna: 54} 
+
+{104, Token: I, Tipo: Identificador, Linea: 18, Columna: 56} 
+
+{105, Token: ,, Tipo: Separador, Linea: 18, Columna: 57} 
+
+{106, Token:  , Tipo: Espacio, Linea: 18, Columna: 58} 
+
+{107, Token: (, Tipo: Separador, Linea: 18, Columna: 59} 
+
+{108, Token: D, Tipo: Identificador, Linea: 18, Columna: 60} 
+
+{109, Token: ,, Tipo: Separador, Linea: 18, Columna: 61} 
+
+{110, Token: D, Tipo: Identificador, Linea: 18, Columna: 62} 
+
+{111, Token: ,, Tipo: Separador, Linea: 18, Columna: 63} 
+
+{112, Token: O, Tipo: Identificador, Linea: 18, Columna: 64} 
+
+{113, Token: ,, Tipo: Separador, Linea: 18, Columna: 65} 
+
+{114, Token: H, Tipo: Identificador, Linea: 18, Columna: 66} 
+
+{115, Token: ), Tipo: Separador, Linea: 18, Columna: 67} 
+
+{116, Token: }, Tipo: Separador, Linea: 18, Columna: 68} 
+
+{117, Token: 
+, Tipo: Salto de Linea, Linea: 18, Columna: 69} 
+
+{118, Token: {, Tipo: Separador, Linea: 19, Columna: 0} 
+
+{119, Token: A2, Tipo: Identificador, Linea: 19, Columna: 1} 
+
+{120, Token: ,, Tipo: Separador, Linea: 19, Columna: 3} 
+
+{121, Token: "Pasar Lobo a la Izquierda", Tipo: Texto, Linea: 19, Columna: 4} 
+
+{122, Token: ,, Tipo: Separador, Linea: 19, Columna: 31} 
+
+{123, Token:  , Tipo: Espacio, Linea: 19, Columna: 32} 
+
+{124, Token: O, Tipo: Identificador, Linea: 19, Columna: 33} 
+
+{125, Token:  , Tipo: Espacio, Linea: 19, Columna: 34} 
+
+{126, Token: !=, Tipo: Operador de Comparación, Linea: 19, Columna: 35} 
+
+{127, Token:  , Tipo: Espacio, Linea: 19, Columna: 37} 
+
+{128, Token: H, Tipo: Identificador, Linea: 19, Columna: 38} 
+
+{129, Token:  , Tipo: Espacio, Linea: 19, Columna: 39} 
+
+{130, Token: &and, Tipo: Operador Logico, Linea: 19, Columna: 40} 
+
+{131, Token:  , Tipo: Espacio, Linea: 19, Columna: 44} 
+
+{132, Token: L, Tipo: Identificador, Linea: 19, Columna: 45} 
+
+{133, Token: ==, Tipo: Operador de Comparación, Linea: 19, Columna: 46} 
+
+{134, Token: D, Tipo: Identificador, Linea: 19, Columna: 48} 
+
+{135, Token:  , Tipo: Espacio, Linea: 19, Columna: 49} 
+
+{136, Token: &and, Tipo: Operador Logico, Linea: 19, Columna: 50} 
+
+{137, Token:  , Tipo: Espacio, Linea: 19, Columna: 54} 
+
+{138, Token: C, Tipo: Identificador, Linea: 19, Columna: 55} 
+
+{139, Token: ==, Tipo: Operador de Comparación, Linea: 19, Columna: 56} 
+
+{140, Token: D, Tipo: Identificador, Linea: 19, Columna: 58} 
+
+{141, Token: ,, Tipo: Separador, Linea: 19, Columna: 59} 
+
+{142, Token:  , Tipo: Espacio, Linea: 19, Columna: 60} 
+
+{143, Token: (, Tipo: Separador, Linea: 19, Columna: 61} 
+
+{144, Token: I, Tipo: Identificador, Linea: 19, Columna: 62} 
+
+{145, Token: ,, Tipo: Separador, Linea: 19, Columna: 63} 
+
+{146, Token: I, Tipo: Identificador, Linea: 19, Columna: 64} 
+
+{147, Token: ,, Tipo: Separador, Linea: 19, Columna: 65} 
+
+{148, Token: O, Tipo: Identificador, Linea: 19, Columna: 66} 
+
+{149, Token: ,, Tipo: Separador, Linea: 19, Columna: 67} 
+
+{150, Token: H, Tipo: Identificador, Linea: 19, Columna: 68} 
+
+{151, Token: ), Tipo: Separador, Linea: 19, Columna: 69} 
+
+{152, Token: }, Tipo: Separador, Linea: 19, Columna: 70} 
+
+{153, Token: 
+, Tipo: Salto de Linea, Linea: 19, Columna: 71} 
+
+{154, Token: {, Tipo: Separador, Linea: 20, Columna: 0} 
+
+{155, Token: A3, Tipo: Identificador, Linea: 20, Columna: 1} 
+
+{156, Token: ,, Tipo: Separador, Linea: 20, Columna: 3} 
+
+{157, Token: "Pasar Oveja a la Derecha", Tipo: Texto, Linea: 20, Columna: 4} 
+
+{158, Token: ,, Tipo: Separador, Linea: 20, Columna: 30} 
+
+{159, Token:  , Tipo: Espacio, Linea: 20, Columna: 31} 
+
+{160, Token: C, Tipo: Identificador, Linea: 20, Columna: 32} 
+
+{161, Token: ==, Tipo: Operador de Comparación, Linea: 20, Columna: 33} 
+
+{162, Token: I, Tipo: Identificador, Linea: 20, Columna: 35} 
+
+{163, Token:  , Tipo: Espacio, Linea: 20, Columna: 36} 
+
+{164, Token: &and, Tipo: Operador Logico, Linea: 20, Columna: 37} 
+
+{165, Token:  , Tipo: Espacio, Linea: 20, Columna: 41} 
+
+{166, Token: O, Tipo: Identificador, Linea: 20, Columna: 42} 
+
+{167, Token: ==, Tipo: Operador de Comparación, Linea: 20, Columna: 43} 
+
+{168, Token: I, Tipo: Identificador, Linea: 20, Columna: 45} 
+
+{169, Token: ,, Tipo: Separador, Linea: 20, Columna: 46} 
+
+{170, Token:  , Tipo: Espacio, Linea: 20, Columna: 47} 
+
+{171, Token: (, Tipo: Separador, Linea: 20, Columna: 48} 
+
+{172, Token: D, Tipo: Identificador, Linea: 20, Columna: 49} 
+
+{173, Token: ,, Tipo: Separador, Linea: 20, Columna: 50} 
+
+{174, Token: L, Tipo: Identificador, Linea: 20, Columna: 51} 
+
+{175, Token: ,, Tipo: Separador, Linea: 20, Columna: 52} 
+
+{176, Token: D, Tipo: Identificador, Linea: 20, Columna: 53} 
+
+{177, Token: ,, Tipo: Separador, Linea: 20, Columna: 54} 
+
+{178, Token: H, Tipo: Identificador, Linea: 20, Columna: 55} 
+
+{179, Token: ), Tipo: Separador, Linea: 20, Columna: 56} 
+
+{180, Token: }, Tipo: Separador, Linea: 20, Columna: 57} 
+
+{181, Token: 
+, Tipo: Salto de Linea, Linea: 20, Columna: 58} 
+
+{182, Token: {, Tipo: Separador, Linea: 21, Columna: 0} 
+
+{183, Token: A4, Tipo: Identificador, Linea: 21, Columna: 1} 
+
+{184, Token: ,, Tipo: Separador, Linea: 21, Columna: 3} 
+
+{185, Token: "Pasar Oveja a la Izquierda", Tipo: Texto, Linea: 21, Columna: 4} 
+
+{186, Token: ,, Tipo: Separador, Linea: 21, Columna: 32} 
+
+{187, Token:  , Tipo: Espacio, Linea: 21, Columna: 33} 
+
+{188, Token: C, Tipo: Identificador, Linea: 21, Columna: 34} 
+
+{189, Token: ==, Tipo: Operador de Comparación, Linea: 21, Columna: 35} 
+
+{190, Token: D, Tipo: Identificador, Linea: 21, Columna: 37} 
+
+{191, Token:  , Tipo: Espacio, Linea: 21, Columna: 38} 
+
+{192, Token: &and, Tipo: Operador Logico, Linea: 21, Columna: 39} 
+
+{193, Token:  , Tipo: Espacio, Linea: 21, Columna: 43} 
+
+{194, Token: O, Tipo: Identificador, Linea: 21, Columna: 44} 
+
+{195, Token: ==, Tipo: Operador de Comparación, Linea: 21, Columna: 45} 
+
+{196, Token: D, Tipo: Identificador, Linea: 21, Columna: 47} 
+
+{197, Token: ,, Tipo: Separador, Linea: 21, Columna: 48} 
+
+{198, Token:  , Tipo: Espacio, Linea: 21, Columna: 49} 
+
+{199, Token: (, Tipo: Separador, Linea: 21, Columna: 50} 
+
+{200, Token: I, Tipo: Identificador, Linea: 21, Columna: 51} 
+
+{201, Token: ,, Tipo: Separador, Linea: 21, Columna: 52} 
+
+{202, Token: L, Tipo: Identificador, Linea: 21, Columna: 53} 
+
+{203, Token: ,, Tipo: Separador, Linea: 21, Columna: 54} 
+
+{204, Token: I, Tipo: Identificador, Linea: 21, Columna: 55} 
+
+{205, Token: ,, Tipo: Separador, Linea: 21, Columna: 56} 
+
+{206, Token: H, Tipo: Identificador, Linea: 21, Columna: 57} 
+
+{207, Token: ), Tipo: Separador, Linea: 21, Columna: 58} 
+
+{208, Token: }, Tipo: Separador, Linea: 21, Columna: 59} 
+
+{209, Token: 
+, Tipo: Salto de Linea, Linea: 21, Columna: 60} 
+
+{210, Token: ., Tipo: Error, Linea: 22, Columna: 0} 
+
+{211, Token: 
+, Tipo: Salto de Linea, Linea: 22, Columna: 1} 
+
+{212, Token: ., Tipo: Error, Linea: 23, Columna: 0} 
+
+{213, Token: 
+, Tipo: Salto de Linea, Linea: 23, Columna: 1} 
+
+{214, Token: ., Tipo: Error, Linea: 24, Columna: 0} 
+
+{215, Token: 
+, Tipo: Salto de Linea, Linea: 24, Columna: 1} 
+

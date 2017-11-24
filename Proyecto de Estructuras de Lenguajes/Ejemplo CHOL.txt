@@ -1,0 +1,25 @@
+variables
+C:= "Campesino"
+O:= "Oveja"
+H:= "Heno"
+L:= "Lobo"
+
+orden:=(C,L,O,H)
+
+estados
+
+dominio:= all[I,D]
+
+inicio:= (I,I,I,I)
+
+fin:= (D,D,D,D)
+
+acciones
+
+{A1,"Pasar Lobo a la Derecha", O != H and& L==I and& C==I, (D,D,O,H)}
+{A2,"Pasar Lobo a la Izquierda", O != H and& L==D and& C==D, (I,I,O,H)}
+{A3,"Pasar Oveja a la Derecha", C==I and& O==I, (D,L,D,H)}
+{A4,"Pasar Oveja a la Izquierda", C==D and& O==D, (I,L,I,H)}
+.
+.
+.

@@ -1,0 +1,25 @@
+variables
+A:= "Balde A"
+B:= "Balde B"
+
+orden:=(A,B)
+
+estados
+
+dominio:= ([0..3],[0..5])
+
+inicio:= (0,0)
+
+fin:= (_,4)
+
+acciones
+
+{A1,"Llenar A", A<3, (3,B)}
+{A2,"Llenar B", B<5, (A,5)}
+{A3,"Vaciar A", A>0, (0,B)}
+{A4,"Vaciar B", B>0, (A,0)}
+{A5,"Pasar de A a B", A>0 and& B<5, (A-(5-B),A+B)}
+{A6,"Pasar de B a A", B>0 and& A<3, (A+B,B-(3-A))}
+.
+.
+.

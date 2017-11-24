@@ -1,0 +1,47 @@
+﻿PROGRAMA= variables SALTOS VARIABLES estados SALTOS DOMINIO INICIO FIN ACCIONES
+VARIABLES= (IDENTIFICADOR := TEXTO SALTOS)+ SALTOS orden := (IDENTIFICADOR(,IDENTIFICADOR)*) SALTOS
+DOMINIO= dominio := DOMINIO' SALTOS
+DOMINIO'= ((INTERVALO(,INTERVALO)*)) | all[INTERVALO]
+INTERVALO= [NUMERO..NUMERO] | [LETRA(,LETRA)*] | [NUMERO(,NUMERO)*]
+INICIO= inicio := ((ESTADO(,ESTADO)*)) SALTOS
+FIN= fin := (((ESTADO|INTERVALO)(,ESTADO|INTERVALO)*)) SALTOS
+ACCIONES= acciones SALTOS ACCION+
+ACCION= {IDENTIFICADOR, TEXTO, (CONDICION (LOGICA CONDICION)*), (ESTFINAL(,ESTFINAL)*)} SALTOS
+CONDICION= EXP COMPARACION EXP
+EXP= (EXP) | EXP OPERACION EXP | IDENTIFICADOR | NUMERO
+OPERACION= + | - | * | /
+COMPARACION= == | >= | <= | != | > | <
+LOGICA= and& | or|
+ESTFINAL= ESTADO | EXP | _
+IDENTIFICADOR= LETRA(ALFANUM)*
+TEXTO= "(ALFANUM | ESPACIO)*"
+ALFANUM= LETRA | DIGITO
+LETRA= [A-Za-z]
+DIGITO= [0-9]
+ESPACIO= " "
+SALTOS= ("\n")+
+NUMERO= (DIGITO)+
+ESTADO= LETRA | NUMERO
+
+EJEMPLO:
+variables
+
+Var0:="Descripcion Var0"
+Var1:="Descripcion Var1"
+Var2:="Descripcion Var2"
+
+orden:= (Var0, Var1, Var2..)
+
+estados
+
+dominio:=([a..b],..) o (all[a,b]) o (all[a..b])
+
+inicio:=(E0,E1,..) //E-estados
+
+Fin:=(E0,E1,..) o (E0,[a..b])
+
+acciones
+{ID, "Nombre Acción", (Condiciones), (E0,_,E1,E3..)
+
+{A2,"poner 2 litros en balde B", B<2,(A,B/2)}
+{A3,"sumar A en balde B", B+A<=3 and& A>0,(0,B+A)}
