@@ -191,6 +191,11 @@ public class InterfazPrincipal extends javax.swing.JFrame {
 
     private void jButton_LogLexActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_LogLexActionPerformed
         this.str = this.jTextPane_tx.getText().replaceAll("\r", "");
+        
+        //Creería que acá, al igual que el léxico, se crearía el sintáctico con lo que tiene this.str
+        //String[] archivoPrueba = {"/home/administrador/NetBeansProjects/ProyectoEstructurasDeLenguajes/proyecto_EstructurasDeLenguajes/src/analizadorLexico/testSintactico.txt"};
+        //AnalizadorSintactico.main(archivoPrueba);
+        
         StringReader sreader = new StringReader(this.str);
         BufferedReader breader = new BufferedReader(sreader);
         AnalizadorLexico al = new AnalizadorLexico(breader);
@@ -199,6 +204,7 @@ public class InterfazPrincipal extends javax.swing.JFrame {
                 try {
                     this.token = al.nextToken();
                 } catch (IOException ex) {
+                    
                 }
             } while (this.token != null);
             al.exportarLog();

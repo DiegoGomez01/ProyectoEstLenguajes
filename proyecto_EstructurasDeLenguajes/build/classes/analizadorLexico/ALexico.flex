@@ -4,14 +4,15 @@ package analizadorLexico;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.ArrayList;7
+
 
 /* Seccion de opciones y declaraciones de JFlex */
 %%
 %function nextToken
 %public
 %type token
-%class AnalizadorLexico
+%class AnalizadorLexico 
 %unicode
 
 %{
@@ -81,7 +82,7 @@ SEPARADOR= "(" | ")" | "[" | "]" | "{" | "}" | ","
 //Palabras Reservadas
 {PALABRASRE}  {
     contador++;
-    token t = new token(contador,yytext(),"Palabra Reservada",yyline,yycolumn);
+    token t = new token(contador,yytext(),"Palabra Reservada",yyline,yycolumEn);
     tokens.add(t);
     return t;
 }

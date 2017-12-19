@@ -7,6 +7,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java_cup.runtime.Symbol;
 
 /* Seccion de opciones y declaraciones de JFlex */
 
@@ -15,7 +16,7 @@ import java.util.ArrayList;
  * <a href="http://www.jflex.de/">JFlex</a> 1.6.1
  * from the specification file <tt>/home/administrador/NetBeansProjects/ProyectoEstructurasDeLenguajes/proyecto_EstructurasDeLenguajes/src/analizadorLexico/ALexico.flex</tt>
  */
-public class AnalizadorLexico {
+public class AnalizadorLexico implements java_cup.runtime.Scanner{
 
   /** This character denotes the end of file */
   public static final int YYEOF = -1;
@@ -798,6 +799,11 @@ public class AnalizadorLexico {
       }
     }
   }
+
+    @Override
+    public Symbol next_token() throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 
 }
